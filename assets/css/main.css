@@ -990,11 +990,11 @@ ol {
 }
 
 .section-title i {
-  font-size: 18px;
-  color: #0EDC8D;
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
+  font-size: 40px;
+  color: #f8ce33;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
   display: inline-block;
   text-align: center;
   background-color: #00a6511c;
@@ -1019,7 +1019,7 @@ ol {
   bottom: 0;
   height: 3px;
   width: 50px;
-  background-color: #0EDC8D;
+  background-color: #f8ce33;
   border-radius: 10px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -1064,7 +1064,7 @@ ol {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  background: #0EDC8D;
+  background: #1c282a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1207,7 +1207,7 @@ ol {
   top: 0;
   height: 100%;
   width: 0;
-  background-color: #0EDC8D;
+  background-color: #081828;
   content: "";
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -1277,7 +1277,7 @@ ol {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  background: #0EDC8D;
+  background: #f8ce33;
   -webkit-animation: preloader-fx 1.6s linear infinite;
   animation: preloader-fx 1.6s linear infinite;
 }
@@ -1370,7 +1370,7 @@ ol {
 }
 
 .header.style3.navbar-area .header-social ul li a:hover {
-  color: #0EDC8D;
+  color: #f8ce33;
 }
 
 /*===== NAVBAR =====*/
@@ -1402,11 +1402,11 @@ ol {
 }
 
 .header .navbar .navbar-nav .nav-item a.active {
-  color: #0EDC8D;
+  color: #f8ce33;
 }
 
 .sticky .navbar .navbar-nav .nav-item a.active {
-  color: #0EDC8D;
+  color: #f8ce33;
 }
 
 .header .navbar .navbar-nav .nav-item .sub-menu a.active {
@@ -1424,7 +1424,7 @@ ol {
 /* Topbar */
 .header .toolbar-area {
   padding: 12px 0;
-  background: #0EDC8D;
+  background: #f5ce33;
 }
 
 .header .toolbar-area .toolbar-social {
@@ -1481,7 +1481,7 @@ ol {
 }
 
 .header .toolbar-login .btn {
-  color: #0EDC8D;
+  color: #f8ce33;
   padding: 6px 20px;
   font-size: 13px;
   background-color: #fff;
@@ -1636,8 +1636,12 @@ ol {
   margin: 0;
 }
 
+.navbar-nav .nav-item a:hover {
+  color: #f8ce33;
+}
+
 .navbar-nav .nav-item:hover a {
-  color: #0EDC8D;
+  color: #f8ce33;
 }
 
 .navbar-nav .nav-item a {
@@ -1676,7 +1680,7 @@ ol {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   z-index: 5;
-  border: 8px solid #0EDC8D;
+  border: 8px solid #f8ce33;
   border-radius: 0;
   border-bottom-color: transparent !important;
   width: auto !important;
@@ -1987,7 +1991,7 @@ ol {
 }
 
 .header .search-form .btn-outline-success:hover {
-  background: #0EDC8D;
+  background: #f8ce33;
   border-color: transparent;
   color: #fff;
 }
@@ -2029,7 +2033,7 @@ ol {
 
 .hero-area.style2 .hero-text h1 span {
   font-weight: 400;
-  border-bottom: 2px solid #0EDC8D;
+  border-bottom: 2px solid #f5ce33;
 }
 
 .hero-area.style2 .hero-text p {
@@ -2169,7 +2173,7 @@ ol {
   margin-bottom: 15px;
   display: inline-block;
   padding: 12px 22px;
-  background: #0EDC8D !important;
+  background: #f5ce33 !important;
   text-transform: none;
   border-radius: 30px;
 }
@@ -2236,17 +2240,139 @@ ol {
 }
 
 /*======================================
+    Contact Us CSS
+========================================*/
+  .location-center {
+    margin-top: 70px;
+  }
+
+  .contact-title {
+    color:rgb(8, 24, 40);
+    font-weight: 500;
+  }
+  
+  .contact-title i {
+    font-size: 25px;
+    color: #f8ce33;
+  }
+
+  .contact-us {
+    background-color: #ffff;
+    position: relative;
+  }
+  
+  .contact-us .round-shape {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .contact-us-section {
+    padding-top: 50px;
+  }
+  
+  .contact-title i {
+    font-size: 25px;
+  }
+
+  .contact-us .about-left {
+    padding-right: 100px;
+  }
+  
+  .contact-us .about-left p {
+    margin-bottom: 25px;
+    line-height: 1.7;
+  }
+  
+  .contact-us .about-left .about-title {
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 6px 4px rgb(75 81 91 / 3%);
+  }
+  
+  .contact-us .about-left .about-title span {
+    position: relative;
+    text-transform: capitalize;
+    padding: 8px 20px;
+    border-radius: 30px 30px 30px 0;
+    font-weight: 600;
+    color: #fff;
+    background-color: #f8ce33;
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+  
+  .contact-us .about-left .about-title h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    line-height: 40px;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 700;
+  }
+  
+  .contact-us .about-left .button {
+    margin-top: 40px;
+  }
+  
+  .contact-us .about-left .button .btn {
+    margin-right: 10px;
+  }
+  
+  .contact-us .about-left .button .btn i {
+    display: inline-block;
+    margin-left: 8px;
+    font-size: 12px;
+  }
+  
+  .contact-us .about-left .button .btn:last-child {
+    margin: 0;
+  }
+  
+  .contact-us .about-right {
+    position: relative;
+  }
+  
+  .contact-us .about-right img {
+    width: 100%;
+    border-radius: 0;
+    overflow: hidden;
+  }
+ 
+/*======================================
     Mission & Vision CSS
 ========================================*/
 .text-center{
-  margin-top: 70px;
+  margin-top: 20px;
   padding-bottom: 10px;
+}
+
+.eye-center {
+  margin-top: 20px;
+  padding-bottom: 5px;
+  text-align: center !important;
 }
 
 .second-mission-vision-container {
   margin-bottom: 50px;
 }
 
+.second-mission-vision-container i {
+  margin-left: 200px;
+  font-size: 40px;
+  color: #f8ce33;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  display: inline-block;
+  text-align: center;
+  background-color: #00a6511c;
+  border-radius: 50%;
+}
+ 
 .line-space {
   line-height: 1.7;
 }
@@ -2461,6 +2587,7 @@ ol {
 
 .about-us .about-left p {
   margin-bottom: 25px;
+  line-height: 1.7;
 }
 
 .about-us .about-left .about-title {
@@ -2475,7 +2602,7 @@ ol {
   border-radius: 30px 30px 30px 0;
   font-weight: 600;
   color: #fff;
-  background-color: #0EDC8D;
+  background-color: #f8ce33;
   font-size: 13px;
   margin-bottom: 8px;
 }
@@ -2573,7 +2700,7 @@ ol {
 }
 
 .our-achievement.overlay::before {
-  background-color: #0EDC8D;
+  background-color: rgb(8, 24, 40);
   opacity: 0.92;
 }
 
@@ -2635,7 +2762,7 @@ ol {
 }
 
 .call-action.overlay::before {
-  background: #0EDC8D;
+  background: rgb(8, 24, 40);
   opacity: 0.95;
 }
 
@@ -2885,7 +3012,7 @@ ol {
 }
 
 .footer .footer-social ul li a:hover {
-  background-color: #0EDC8D;
+  background-color: #f8ce33;
   color: #fff;
   border-color: transparent;
 }
@@ -2978,7 +3105,7 @@ ol {
 }
 
 .footer .f-link ul li a:hover {
-  color: #0EDC8D;
+  color: #081828;
 }
 
 .footer .footer-newsletter .newsletter-form {
@@ -3000,7 +3127,7 @@ ol {
 
 .footer .footer-bottom {
   padding: 30px 0;
-  background-color: #0EDC8D;
+  background-color: #f8ce33;
 }
 
 .footer .footer-bottom .inner {
