@@ -991,7 +991,7 @@ ol {
 
 .section-title i {
   font-size: 40px;
-  color: #f8ce33;
+  color: #101769;
   height: 80px;
   width: 80px;
   line-height: 80px;
@@ -1019,7 +1019,7 @@ ol {
   bottom: 0;
   height: 3px;
   width: 50px;
-  background-color: #f8ce33;
+  background-color: #101769;
   border-radius: 10px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -1370,7 +1370,7 @@ ol {
 }
 
 .header.style3.navbar-area .header-social ul li a:hover {
-  color: #f8ce33;
+  color: #0606e3;
 }
 
 /*===== NAVBAR =====*/
@@ -1402,11 +1402,11 @@ ol {
 }
 
 .header .navbar .navbar-nav .nav-item a.active {
-  color: #f8ce33;
+  color: #0606e3;
 }
 
 .sticky .navbar .navbar-nav .nav-item a.active {
-  color: #f8ce33;
+  color: #0606e3;
 }
 
 .header .navbar .navbar-nav .nav-item .sub-menu a.active {
@@ -1424,7 +1424,7 @@ ol {
 /* Topbar */
 .header .toolbar-area {
   padding: 12px 0;
-  background: #f5ce33;
+  background: #101769;
 }
 
 .header .toolbar-area .toolbar-social {
@@ -1481,7 +1481,7 @@ ol {
 }
 
 .header .toolbar-login .btn {
-  color: #f8ce33;
+  color: #0606e3;
   padding: 6px 20px;
   font-size: 13px;
   background-color: #fff;
@@ -1549,7 +1549,7 @@ ol {
 }
 
 .navbar-brand img {
-  width: 170px;
+  width: 100px;
 }
 
 .mobile-menu-btn {
@@ -1637,11 +1637,11 @@ ol {
 }
 
 .navbar-nav .nav-item a:hover {
-  color: #f8ce33;
+  color: #0606e3;
 }
 
 .navbar-nav .nav-item:hover a {
-  color: #f8ce33;
+  color: #0606e3;
 }
 
 .navbar-nav .nav-item a {
@@ -1680,7 +1680,7 @@ ol {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   z-index: 5;
-  border: 8px solid #f8ce33;
+  border: 8px solid #0606e3;
   border-radius: 0;
   border-bottom-color: transparent !important;
   width: auto !important;
@@ -2147,7 +2147,7 @@ ol {
 }
 
 .hero-area .hero-inner.overlay::before {
-  opacity: 0.9;
+  opacity: 0.5;
   background: #081828;
 }
 
@@ -2173,7 +2173,7 @@ ol {
   margin-bottom: 15px;
   display: inline-block;
   padding: 12px 22px;
-  background: #f5ce33 !important;
+  background: #0606e3 !important;
   text-transform: none;
   border-radius: 30px;
 }
@@ -2253,7 +2253,7 @@ ol {
   
   .contact-title i {
     font-size: 25px;
-    color: #f8ce33;
+    color: #101769;
   }
 
   .contact-us {
@@ -2299,7 +2299,7 @@ ol {
     border-radius: 30px 30px 30px 0;
     font-weight: 600;
     color: #fff;
-    background-color: #f8ce33;
+    background-color: #101769;
     font-size: 13px;
     margin-bottom: 8px;
   }
@@ -2363,7 +2363,7 @@ ol {
 .second-mission-vision-container i {
   margin-left: 200px;
   font-size: 40px;
-  color: #f8ce33;
+  color: #101769;
   height: 80px;
   width: 80px;
   line-height: 80px;
@@ -2602,7 +2602,8 @@ ol {
   border-radius: 30px 30px 30px 0;
   font-weight: 600;
   color: #fff;
-  background-color: #f8ce33;
+  background-color: #101769
+  ;
   font-size: 13px;
   margin-bottom: 8px;
 }
@@ -3127,7 +3128,7 @@ ol {
 
 .footer .footer-bottom {
   padding: 30px 0;
-  background-color: #f8ce33;
+  background-color: #101769;
 }
 
 .footer .footer-bottom .inner {
